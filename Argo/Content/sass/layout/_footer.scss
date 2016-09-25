@@ -1,0 +1,36 @@
+#footer {
+    display: block;
+    background: #131a28;
+    color: #777f91;
+    height: 70px;
+
+    .footer-logo {
+        background: url('../img/logo.svg') -5px -7px no-repeat;
+        background-size: 58px 30px;
+        width: 46px;
+        height: 20px;
+        margin: 30px 15px 0 0;
+    }
+
+    .footer-left-part {
+        float: left;
+    }
+
+    .footer-right-part {
+        float: left;
+        @include font-thin();
+        font-size: $text-small-size;
+        line-height: 70px;
+
+        p {
+            margin: 0;
+        }
+    }
+
+    @media screen and (min-width: $tablet-width) {
+        .footer-right-part {
+            float: right;
+            width: 290px;
+        }
+    }
+}

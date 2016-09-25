@@ -1,0 +1,19 @@
+@mixin font-thin {
+    font-family: 'Open Sans', Tahoma, Sans-serif;
+    font-weight: 300;
+}
+
+@mixin font-normal {
+    font-family: 'Open Sans', Tahoma, Sans-serif;
+    font-weight: 400;
+}
+
+@mixin font-semibold {
+    font-family: 'Open Sans', Tahoma, Sans-serif;
+    font-weight: 600;
+}
+
+@mixin font-bold {
+    font-family: 'Open Sans', Tahoma, Sans-serif;
+    font-weight: 700;
+}

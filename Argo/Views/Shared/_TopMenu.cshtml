@@ -1,0 +1,22 @@
+﻿<div id="top-menu">
+    <ul class="top-menu">
+        <li class="menu-item">
+            <a href="#company">@Text.TopMenu_Company</a>
+        </li>
+        <li class="menu-item">
+            <a href="#projects">@Text.TopMenu_Projects</a>
+        </li>
+        <li class="menu-item">
+            <a href="#team">@Text.TopMenu_Team</a>
+        </li>
+        <li class="menu-item">
+            <a href="#about-us">@Text.TopMenu_AboutUs</a>
+        </li>
+    </ul>
+
+    <div class="land-dropdown-wrapper">
+        @Html.Action("LanguagesDropdown", "Common")
+    </div>
+
+    <a href="mailto:info@argo.com" class="btn btn-primary"><i class="icon icon-mail"></i> @Text.Button_ContactUs</a>
+</div>

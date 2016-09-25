@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutUs_Header" xml:space="preserve">
+    <value>About us</value>
+  </data>
+  <data name="AboutUs_Text" xml:space="preserve">
+    <value>&lt;p&gt;&lt;b&gt;Argo Development is a new software development company. We provide full cycle development including business analysis, development, QA and support.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. &lt;/p&gt;</value>
+  </data>
+  <data name="Button_ContactUs" xml:space="preserve">
+    <value>Contact us</value>
+  </data>
+  <data name="Button_HireUs" xml:space="preserve">
+    <value>Hire us!</value>
+  </data>
+  <data name="Contacts_Email" xml:space="preserve">
+    <value>info@argo.studio</value>
+  </data>
+  <data name="Contacts_Header" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="Contacts_Phone" xml:space="preserve">
+    <value>+375 (29) 848 484 84</value>
+  </data>
+  <data name="Contacts_SocialNetworksHeader" xml:space="preserve">
+    <value>Social networks</value>
+  </data>
+  <data name="Features_DesignBenefit1" xml:space="preserve">
+    <value>User Interface</value>
+  </data>
+  <data name="Features_DesignBenefit2" xml:space="preserve">
+    <value>User Expirience / Prototyping</value>
+  </data>
+  <data name="Features_DesignBenefit3" xml:space="preserve">
+    <value>Branding and Identity</value>
+  </data>
+  <data name="Features_DesignBenefit4" xml:space="preserve">
+    <value>Graphic design (booklets, banners, etc.)</value>
+  </data>
+  <data name="Features_DesignHeader" xml:space="preserve">
+    <value>Design</value>
+  </data>
+  <data name="Features_DevelopmentBenefit1" xml:space="preserve">
+    <value>User Interface</value>
+  </data>
+  <data name="Features_DevelopmentBenefit2" xml:space="preserve">
+    <value>User Expirience / Prototyping</value>
+  </data>
+  <data name="Features_DevelopmentBenefit3" xml:space="preserve">
+    <value>Branding and Identity</value>
+  </data>
+  <data name="Features_DevelopmentBenefit4" xml:space="preserve">
+    <value>User Expirience / Prototyping</value>
+  </data>
+  <data name="Features_DevelopmentHeader" xml:space="preserve">
+    <value>Development</value>
+  </data>
+  <data name="Features_QABenefit1" xml:space="preserve">
+    <value>User Interface</value>
+  </data>
+  <data name="Features_QABenefit2" xml:space="preserve">
+    <value>User Expirience / Prototyping</value>
+  </data>
+  <data name="Features_QABenefit3" xml:space="preserve">
+    <value>Branding and Identity</value>
+  </data>
+  <data name="Features_QABenefit4" xml:space="preserve">
+    <value>User Expirience / Prototyping</value>
+  </data>
+  <data name="Features_QAHeader" xml:space="preserve">
+    <value>Quality Assurance</value>
+  </data>
+  <data name="Footer_Copyright" xml:space="preserve">
+    <value>Argo.studio - All rights reserved</value>
+  </data>
+  <data name="Header_LogoLabel" xml:space="preserve">
+    <value>Software Development Company</value>
+  </data>
+  <data name="Label_Branding" xml:space="preserve">
+    <value>Branding</value>
+  </data>
+  <data name="Label_Development" xml:space="preserve">
+    <value>Development</value>
+  </data>
+  <data name="Label_GraphicDesign" xml:space="preserve">
+    <value>Graphic Design</value>
+  </data>
+  <data name="Label_UIDesign" xml:space="preserve">
+    <value>UI / UX Design</value>
+  </data>
+  <data name="Projects_BelinterexpoDescription" xml:space="preserve">
+    <value>&lt;p&gt;Booklets for Belarusian exhibition company.&lt;/p&gt;
+&lt;p&gt;Outsource project. Design.&lt;/p&gt;</value>
+  </data>
+  <data name="Projects_CargoDescription" xml:space="preserve">
+    <value>&lt;p&gt;Cargo Club - SaaS platform for logistics and transport companies.&lt;/p&gt;
+&lt;p&gt;Outsource project. Full cycle product development.&lt;/p&gt;</value>
+  </data>
+  <data name="Projects_Header" xml:space="preserve">
+    <value>See our projects</value>
+  </data>
+  <data name="Projects_Proposal" xml:space="preserve">
+    <value>Here can be your project!</value>
+  </data>
+  <data name="Projects_VerniMomentDescription" xml:space="preserve">
+    <value>&lt;p&gt;VerniMoment description&lt;/p&gt;</value>
+  </data>
+  <data name="Slogan" xml:space="preserve">
+    <value>We make products that really works!</value>
+  </data>
+  <data name="SocialNetworksHeader" xml:space="preserve">
+    <value>Social networks</value>
+  </data>
+  <data name="Team_Header" xml:space="preserve">
+    <value>Meet our team</value>
+  </data>
+  <data name="Team_Member1Description" xml:space="preserve">
+    <value>&lt;p&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. Datat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</value>
+  </data>
+  <data name="Team_Member1Name" xml:space="preserve">
+    <value>Stanislav Brill</value>
+  </data>
+  <data name="Team_Member1Position" xml:space="preserve">
+    <value>Office cleaner</value>
+  </data>
+  <data name="Team_Member2Description" xml:space="preserve">
+    <value>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. datat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</value>
+  </data>
+  <data name="Team_Member2Name" xml:space="preserve">
+    <value>Artiom Petrykin</value>
+  </data>
+  <data name="Team_Member2Position" xml:space="preserve">
+    <value>UI / UX Designer</value>
+  </data>
+  <data name="Team_Member3Description" xml:space="preserve">
+    <value>&lt;p&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. Datat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</value>
+  </data>
+  <data name="Team_Member3Name" xml:space="preserve">
+    <value>Alexander Neznau</value>
+  </data>
+  <data name="Team_Member3Position" xml:space="preserve">
+    <value>Developer</value>
+  </data>
+  <data name="Title_Index" xml:space="preserve">
+    <value>Argo</value>
+  </data>
+  <data name="TopMenu_AboutUs" xml:space="preserve">
+    <value>About Us</value>
+  </data>
+  <data name="TopMenu_Company" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="TopMenu_Projects" xml:space="preserve">
+    <value>Projects</value>
+  </data>
+  <data name="TopMenu_Team" xml:space="preserve">
+    <value>Team</value>
+  </data>
+</root>

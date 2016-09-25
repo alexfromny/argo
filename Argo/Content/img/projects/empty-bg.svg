@@ -1,0 +1,58 @@
+<svg id="Группа_11" data-name="Группа 11" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="452" height="319" viewBox="0 0 452 319">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #f6f6f6;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #d1d3d8;
+      }
+
+      .cls-1 {
+        stroke-width: 12px;
+        opacity: 0.5;
+      }
+
+      .cls-1, .cls-3, .cls-5, .cls-6 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-3, .cls-5 {
+        stroke-width: 2px;
+      }
+
+      .cls-3, .cls-5, .cls-6 {
+        fill: none;
+      }
+
+      .cls-4 {
+        filter: url(#filter);
+      }
+
+      .cls-5, .cls-6 {
+        stroke: #a8b1bd;
+      }
+
+      .cls-6 {
+        stroke-width: 4px;
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#e0e2e5"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Фигура_7_копия" data-name="Фигура 7 копия" class="cls-1" d="M513,3343H953" transform="translate(-507 -3192)"/>
+  <path id="Фигура_7_копия_2" data-name="Фигура 7 копия 2" class="cls-1" d="M513,3383H852" transform="translate(-507 -3192)"/>
+  <rect id="Прямоугольник_скругл._углы_3" data-name="Прямоугольник, скругл. углы 3" class="cls-2" x="2" y="1" width="97" height="97" rx="5" ry="5"/>
+  <path id="Фигура_6" data-name="Фигура 6" class="cls-3" d="M528,3212l59,59" transform="translate(-507 -3192)"/>
+  <path id="Фигура_6_копия" data-name="Фигура 6 копия" class="cls-3" d="M587,3213.4L528.4,3272" transform="translate(-507 -3192)"/>
+  <g id="Группа_9" data-name="Группа 9" class="cls-4">
+    <path id="Прямоугольник_скругл._углы_4_копия_3" data-name="Прямоугольник, скругл. углы 4 копия 3" class="cls-5" d="M520,3450H759a5,5,0,0,1,5,5v50a5,5,0,0,1-5,5H520a5,5,0,0,1-5-5v-50A5,5,0,0,1,520,3450Z" transform="translate(-507 -3192)"/>
+    <path id="Фигура_8" data-name="Фигура 8" class="cls-6" d="M553,3481H722" transform="translate(-507 -3192)"/>
+    <path id="Прямоугольник_скругл._углы_4_копия_3-2" data-name="Прямоугольник, скругл. углы 4 копия 3" class="cls-5" d="M790,3450H949a5,5,0,0,1,5,5v50a5,5,0,0,1-5,5H790a5,5,0,0,1-5-5v-50A5,5,0,0,1,790,3450Z" transform="translate(-507 -3192)"/>
+    <path id="Фигура_8-2" data-name="Фигура 8" class="cls-6" d="M823,3481h89" transform="translate(-507 -3192)"/>
+  </g>
+</svg>

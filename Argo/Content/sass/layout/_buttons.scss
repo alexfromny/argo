@@ -1,0 +1,44 @@
+.btn {
+    @include font-semibold();
+    text-decoration: none;
+    line-height: 36px;
+    padding: 0 40px;
+    text-align: center;
+    border: none;
+    @include border-radius(3px);
+    display: inline-block;
+    vertical-align: top;
+    font-size: $text-normal-size;
+    border-bottom: 3px solid grey;
+    @include transition(all, 0.2s);
+
+    &:hover,
+    &:active,
+    &:focus {
+        text-decoration: none;
+    }
+
+    &.btn-primary {
+        color: #FFF;
+        background: #ec2c56;
+        border-bottom-color: #c0173c;
+        @include text-shadow(1px, 1px, 1px, #ba173a);
+
+        .icon {
+            color: #ba173a;
+            font-size: 1.25em;
+        }
+
+        &:hover {
+            background: #db224b;
+        }
+
+        &:active {
+            background: #c0173c;
+
+            .icon {
+                color: #9d1130;
+            }
+        }
+    }
+}

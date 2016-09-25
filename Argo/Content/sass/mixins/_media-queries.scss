@@ -1,0 +1,20 @@
+$mobile-width: 320px;
+$tablet-width: 764px;
+$desktop-width: 1280px;
+
+.mobile-only,
+.desktop-only {
+    display: none;
+}
+
+.mobile-device {
+    .mobile-only {
+        display: block;
+    }
+}
+
+.desktop-device {
+    .desktop-only {
+        display: block;
+    }
+}

@@ -1,0 +1,40 @@
+$icon-font: 'Icomoon';
+$icon-symbol-mail: '\e900';
+$icon-symbol-phone: '\e901';
+$icon-symbol-list-item: '\e902';
+$icon-symbol-dropdown: '\e903';
+$icon-symbol-dribbble: '\e904';
+$icon-symbol-facebook: '\e905';
+$icon-symbol-vk: '\e906';
+
+@font-face {
+    font-family: $icon-font;
+    src: url("../../fonts/icomoon.eot");
+    src: url("../../fonts/icomoon.eot?#iefix")format("embedded-opentype"),
+    url("../../fonts/icomoon.woff") format("woff"),
+    url("../../fonts/icomoon.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.icon {
+    &:before {
+        font-family: $icon-font;
+        font-size: 2em;
+        line-height: inherit;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    &.icon-mail:before {
+        content: $icon-symbol-mail;
+    }
+
+    &.icon-phone:before {
+        content: $icon-symbol-phone;
+    }
+
+    &.icon-caret:before {
+        content: $icon-symbol-dropdown;
+    }
+}

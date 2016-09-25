@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+    <head lang="@UICulture">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewBag.Title</title>
+        <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=cyrillic,cyrillic-ext,latin-ext" />
+        @Styles.Render("~/Content/styles/style")
+        @Scripts.Render("~/bundles/modernizr")
+    </head>
+    <body>
+        @Html.Partial("_Header")
+
+        @RenderBody()
+
+        @Html.Partial("_Footer")
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/app")
+        @RenderSection("scripts", required: false)
+    </body>
+</html>

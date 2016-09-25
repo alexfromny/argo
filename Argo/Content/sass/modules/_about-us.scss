@@ -1,0 +1,147 @@
+#about-us {
+    display: block;
+    background: #182031;
+    color: #FFF;
+    padding: 60px 0;
+
+    h3 {
+        @include font-normal();
+        font-size: $text-large-size;
+        line-height: 1em;
+        color: #b4bbc8;
+        margin: 0 0 60px;
+        position: relative;
+
+        &:after {
+            content: '';
+            display: block;
+
+            position: absolute;
+            bottom: -27px;
+            height: 1px;
+            width: 35px;
+            background: #1167a2;
+            border: #163857;
+            @include border-radius(1px);
+        }
+    }
+
+    .footer-left-part {
+        padding: 0 0 60px;
+    }
+
+    .about-us-description {
+        font-size: $text-normal-size;
+        line-height: 1.5em;
+        color: #9498a1;
+
+        b {
+            @include font-bold();
+            font-size: $text-enlarged-size;
+            color: #FFF;
+        }
+    }
+
+    .contacts {
+        display: block;
+        list-style: none;
+        color: #FFF;
+        font-size: $text-enlarged-size;
+        line-height: 1em;
+        @include font-bold();
+        margin: 0 0 35px;
+
+        a {
+            color: #FFF;
+            text-decoration: none;
+            @include transition(all, 0.2s);
+
+            span {
+                @include transition(all, 0.2s);
+            }
+
+            &:hover {
+                span {
+                    text-decoration: underline;
+                    color: rgba(#FFF, 0.5);
+                }
+            }
+        }
+
+        .icon {
+            width: 35px;
+            color: #1167a2;
+        }
+
+        li {
+            margin: 0 0 20px;
+        }
+    }
+
+    .social-networks {
+        .social-networks-header {
+            @include font-normal();
+            font-size: $text-normal-size;
+            line-height: 1em;
+            color: #b4bbc8;
+            margin: 0 0 15px;
+        }
+    }
+
+    .social-networks-items {
+        font-size: 0;
+    }
+
+    .social-network-icon {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 10px 0 0;
+        color: #444c5f;
+        font-size: 30px;
+        line-height: 30px;
+        @include transition(all, 0.2s);
+
+        &:before {
+            font-family: $icon-font;
+            font-size: 1em;
+            line-height: inherit;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        &:hover {
+            color: #FFF;
+        }
+
+        &.social-network-icon-facebook:before {
+            content: $icon-symbol-facebook;
+        }
+
+        &.social-network-icon-vk:before {
+            content: $icon-symbol-vk;
+        }
+
+        &.social-network-icon-dribbble:before {
+            content: $icon-symbol-dribbble;
+        }
+    }
+
+    @media screen and (min-width: $tablet-width) {
+        .footer-left-part {
+            float: left;
+            width: calc(100% - 310px);
+            padding: 0;
+        }
+
+        .footer-right-part {
+            float: right;
+            width: 290px;
+        }
+    }
+
+    @media screen and (min-width: $desktop-width) {
+        .footer-left-part {
+            width: calc(100% - 390px);
+        }
+    }
+}

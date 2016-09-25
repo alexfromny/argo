@@ -1,0 +1,28 @@
+h2 {
+    margin: 60px 0 45px;
+    text-align: center;
+    @include font-normal();
+    font-size: $text-large-size;
+    line-height: 1em;
+    color: #3c414c;
+    position: relative;
+
+    span {
+        padding: 0 35px;
+        background: #f9f9f9;
+        position: relative;
+        z-index: 2;
+    }
+
+    &:after {
+        content: '';
+        display: block;
+        height: 1px;
+        background: #ebedf0;
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        top: $text-large-size / 2;
+    }
+}

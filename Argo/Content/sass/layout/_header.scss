@@ -1,0 +1,193 @@
+#header {
+    display: block;
+    height: 700px;
+    background: url('../img/header-bg.jpg') center center no-repeat;
+    background-size: cover;
+    margin: 0 0 -155px;
+
+    .highresdisplay & {
+        background-image: url('../img/header-bg-2x.jpg');
+    }
+
+    .header-bar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 99;
+        padding: 20px 0 0;
+        height: 70px;
+        @include transition(background, 0.5s);
+
+        &.is-fixed {
+            background: #182030;
+        }
+    }
+
+    .header-logo-wrapper {
+        float: left;
+        line-height: 20px;
+        @include font-normal();
+        font-size: $text-normal-size;
+        color: #FFF;
+        vertical-align: top;
+        padding: 5px 0 0;
+    }
+
+    .header-logo {
+        display: inline-block;
+        vertical-align: top;
+        background: url('../img/logo.svg') -8px -10px no-repeat;
+        background-size: 90px 47px;
+        width: 71px;
+        height: 32px;
+        margin: 0 10px 0 0;
+    }
+
+    .top-menu-wrapper {
+        float: right;
+    }
+
+    .header-slogan {
+        @include font-normal();
+        font-size: 41px;
+        line-height: 1em;
+        color: #FFF;
+        text-align: center;
+        padding: 275px 0 0;
+        margin: 0;
+    }
+}
+
+#top-menu {
+    .top-menu {
+        display: block;
+        float: left;
+        list-style: none;
+        font-size: 0;
+
+        li {
+            display: inline-block;
+            vertical-align: top;
+            margin: 0 44px 0 0;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            a {
+                display: block;
+                @include font-semibold();
+                font-size: $text-normal-size;
+                line-height: 36px;
+                color: #b2bbcf;
+                padding: 0 12px;
+                border-bottom: 2px solid transparent;
+                @include transition(all, 0.2s);
+
+                &,
+                &:hover,
+                &:active,
+                &:focus {
+                    text-decoration: none;
+                }
+
+                &:hover {
+                    color: #FFF;
+                }
+
+                &.is-active {
+                    border-bottom-color: #32589a;
+                    color: rgba(#FFF, 0.8);
+                }
+            }
+        }
+    }
+    
+    .land-dropdown-wrapper {
+        margin: 0 30px;
+        float: left;
+    }
+}
+
+.dropdown {
+    position: relative;
+
+    .dropdown-toggle {
+        display: block;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+        @include font-semibold();
+        font-size: $text-normal-size;
+        line-height: 36px;
+        color: #b2bbcf;
+        padding: 0 20px 2px 25px;
+        @include border-radius(3px 3px 0 0);
+
+        &:hover {
+            color: #FFF;
+        }
+
+        .icon {
+            margin: 0 0 0 10px;
+        }
+    }
+
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+        top: 37px;
+        left: 0;
+        right: 0;
+        background: #2e5bab;
+        padding: 1px 0 0;
+
+        @include border-radius(0 0 3px 3px);
+
+        a {
+            display: block;
+            padding: 0 20px 0 25px;
+            @include font-semibold();
+            font-size: $text-normal-size;
+            line-height: 30px;
+            color: #c8d7f0;
+
+            &,
+            &:hover,
+            &:active,
+            &:focus {
+                text-decoration: none;
+            }
+
+            &:hover {
+                background: #224b93;
+            }
+        }
+
+        li {
+            &:last-child {
+                a {
+                    @include border-radius(0 0 3px 3px);
+                }
+            }
+        }
+    }
+
+    &.is-opened {
+        .dropdown-toggle {
+            color: #FFF;
+            background: #2e5bab;
+
+            .icon {
+                &:before {
+                    @include flipVertically();
+                }
+            }
+        }
+
+        .dropdown-menu {
+            display: block;
+        }
+    }
+}

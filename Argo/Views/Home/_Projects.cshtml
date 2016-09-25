@@ -1,0 +1,54 @@
+﻿<div class="content">
+    <a name="projects"></a>
+    <h2><span>@Text.Projects_Header</span></h2>
+
+    <div class="projects">
+        <div class="project project-cargo">
+            <div class="project-image"></div>
+            <div class="project-details">
+                <div class="project-logo"></div>
+                <div class="project-description">
+                    @Html.Raw(Text.Projects_CargoDescription)
+                </div>
+                <div class="project-labels">
+                    <div class="project-label">@Text.Label_Branding</div>
+                    <div class="project-label">@Text.Label_UIDesign</div>
+                    <div class="project-label">@Text.Label_Development</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project project-vernimoment">
+            <div class="project-image"></div>
+            <div class="project-details">
+                <div class="project-logo"></div>
+                <div class="project-description">
+                    @Html.Raw(Text.Projects_VerniMomentDescription)
+                </div>
+                <div class="project-labels">
+                    <div class="project-label">@Text.Label_Development</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project project-belinterexpo">
+            <div class="project-image"></div>
+            <div class="project-details">
+                <div class="project-logo"></div>
+                <div class="project-description">
+                    @Html.Raw(Text.Projects_BelinterexpoDescription)
+                </div>
+                <div class="project-labels">
+                    <div class="project-label">@Text.Label_GraphicDesign</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-empty">
+            <div class="project-details">
+                <div class="project-empty-description">@Text.Projects_Proposal</div>
+                <a href="mailto:sales@argo.com" class="btn btn-primary"><i class="icon icon-mail"></i> @Text.Button_HireUs</a>
+            </div>
+        </div>
+    </div>
+</div>

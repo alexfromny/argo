@@ -1,0 +1,9 @@
+.idea/
+.vs/
+node_modules/
+packages/
+bin/
+obj/
+
+*.user
+*.pubxml

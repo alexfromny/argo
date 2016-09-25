@@ -1,0 +1,143 @@
+.projects {
+    .project {
+        height: 300px;
+        @include border-radius(3px);
+        margin: 0 0 10px;
+        position: relative;
+        z-index: 1;
+
+        .project-image {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 0;
+            background: url('') center center no-repeat;
+            background-size: cover;
+        }
+
+        .project-details {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 1;
+            padding: 75px 55px;
+            max-width: 550px;
+        }
+
+        .project-logo {
+            display: block;
+            background: url('') 0 0 no-repeat;
+            margin: 0 0 30px;
+        }
+
+        .project-description {
+            @include font-normal();
+            font-size: $text-normal-size;
+            line-height: 1.5em;
+            color: #f0f3f6;
+            margin: 0 0 35px;
+
+            p {
+                margin: 0;
+            }
+        }
+
+        .project-labels {
+            .project-label {
+                display: inline-block;
+                vertical-align: top;
+                @include font-normal();
+                font-size: $text-small-size;
+                line-height: 30px;
+                color: #a7b1bd;
+                margin: 0 5px 0 0;
+                padding: 0 22px;
+                border: 1px solid #a7b1bd;
+                @include border-radius(3px);
+            }
+        }
+
+        &.project-cargo {
+            .project-image {
+                background-image: url('../img/projects/cargo.jpg');
+
+                .highresdisplay & {
+                    background-image: url('../img/projects/cargo-2x.jpg');
+                }
+            }
+
+            .project-logo {
+                background-image: url('../img/projects/cargo-logo.png');
+                //background-size: 122px 38px;
+                width: 122px;
+                height: 38px;
+            }
+        }
+
+        &.project-vernimoment {
+            .project-image {
+                background-image: url('../img/projects/vernimoment.jpg');
+
+                .highresdisplay & {
+                    background-image: url('../img/projects/vernimoment-2x.jpg');
+                }
+            }
+
+            .project-logo {
+                background-image: url('../img/projects/vernimoment-logo.png');
+                //background-size: 145px 32px;
+                width: 145px;
+                height: 32px;
+            }
+        }
+
+        &.project-belinterexpo {
+            .project-image {
+                background-image: url('../img/projects/belinterexpo.jpg');
+
+                .highresdisplay & {
+                    background-image: url('../img/projects/belinterexpo-2x.jpg');
+                }
+            }
+
+            .project-logo {
+                background-image: url('../img/projects/belinterexpo-logo.png');
+                //background-size: 145px 32px;
+                width: 145px;
+                height: 32px;
+            }
+        }
+    }
+
+    .project-empty {
+        height: 300px;
+        border: 1px dashed #e2e2e2;
+        background: #f2f3f5 url('../img/projects/empty-bg.svg') 27.5px 32.5px no-repeat;
+        //background-size: 313px 160px;
+        background-size: 276px 159.5px;
+        @include border-radius(3px);
+        position: relative;
+        z-index: 1;
+
+        padding: 120px 0 0 735px;
+
+        .project-details {
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+        }
+
+        .project-empty-description {
+            @include font-thin();
+            font-size: $text-normal-size * 1.5;
+            line-height: 1em;
+            margin: 0 0 20px;
+        }
+    }
+
+    @media screen and (min-width: $desktop-width) {
+    }
+}

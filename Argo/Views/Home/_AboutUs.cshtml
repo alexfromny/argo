@@ -1,0 +1,31 @@
+﻿<article id="about-us">
+    <div class="content">
+        <a name="about-us"></a>
+        <div class="footer-left-part">
+            <h3>@Text.AboutUs_Header</h3>
+
+            <div class="about-us-description">
+                @Html.Raw(Text.AboutUs_Text)
+            </div>
+        </div>
+
+        <div class="footer-right-part">
+            <h3>@Text.Contacts_Header</h3>
+
+            <ul class="contacts">
+                <li><a href="mailto:@Text.Contacts_Email"><i class="icon icon-mail"></i> <span>@Text.Contacts_Email</span></a></li>
+                <li><i class="icon icon-phone"></i> @Text.Contacts_Phone</li>
+            </ul>
+
+            <div class="social-networks">
+                <div class="social-networks-header">@Text.Contacts_SocialNetworksHeader</div>
+
+                <div class="social-networks-items">
+                    <a href="#" class="social-network-icon social-network-icon-facebook"></a>
+                    <a href="#" class="social-network-icon social-network-icon-vk"></a>
+                    <a href="#" class="social-network-icon social-network-icon-dribbble"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
