@@ -70,8 +70,8 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;p&gt;&lt;b&gt;Argo Development is a new software development company. We provide full cycle development including business analysis, development, QA and support.&lt;/b&gt;&lt;/p&gt;
-        ///&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. &lt;/p&gt;.
+        ///   Looks up a localized string similar to &lt;p&gt;&lt;b&gt;Argo Development is a new outsource software development company. &lt;/b&gt;&lt;/p&gt;
+        ///&lt;p&gt;We specialized on launching SaaS projects, startups. Provide full cycle web and mobile development including Business Analysis, UI and UX Design, Development, Quality Assurance and Support. &lt;/p&gt;.
         /// </summary>
         internal static string AboutUs_Text {
             get {
@@ -98,7 +98,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to info@argo.studio.
+        ///   Looks up a localized string similar to info@argo.team.
         /// </summary>
         internal static string Contacts_Email {
             get {
@@ -116,11 +116,20 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to +375 (29) 848 484 84.
+        ///   Looks up a localized string similar to +375 44 709 79 07.
         /// </summary>
-        internal static string Contacts_Phone {
+        internal static string Contacts_Phone1 {
             get {
-                return ResourceManager.GetString("Contacts_Phone", resourceCulture);
+                return ResourceManager.GetString("Contacts_Phone1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to +48 530 450 573.
+        /// </summary>
+        internal static string Contacts_Phone2 {
+            get {
+                return ResourceManager.GetString("Contacts_Phone2", resourceCulture);
             }
         }
         
@@ -134,7 +143,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to User Interface        ///.
+        ///   Looks up a localized string similar to User Interface.
         /// </summary>
         internal static string Features_DesignBenefit1 {
             get {
@@ -179,7 +188,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to User Interface.
+        ///   Looks up a localized string similar to Web (JavaScript, .NET, C#).
         /// </summary>
         internal static string Features_DevelopmentBenefit1 {
             get {
@@ -188,7 +197,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to User Expirience / Prototyping.
+        ///   Looks up a localized string similar to Mobile (C#, Swift, JAVA).
         /// </summary>
         internal static string Features_DevelopmentBenefit2 {
             get {
@@ -197,7 +206,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Branding and Identity.
+        ///   Looks up a localized string similar to Desktop (.NET, Swift).
         /// </summary>
         internal static string Features_DevelopmentBenefit3 {
             get {
@@ -206,7 +215,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to User Expirience / Prototyping.
+        ///   Looks up a localized string similar to Cloud (.NET).
         /// </summary>
         internal static string Features_DevelopmentBenefit4 {
             get {
@@ -224,7 +233,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to User Interface.
+        ///   Looks up a localized string similar to Test strategy writing.
         /// </summary>
         internal static string Features_QABenefit1 {
             get {
@@ -233,7 +242,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to User Expirience / Prototyping.
+        ///   Looks up a localized string similar to Manual testing.
         /// </summary>
         internal static string Features_QABenefit2 {
             get {
@@ -242,7 +251,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Branding and Identity.
+        ///   Looks up a localized string similar to Automation testing (Selenium WD, C#).
         /// </summary>
         internal static string Features_QABenefit3 {
             get {
@@ -251,7 +260,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to User Expirience / Prototyping.
+        ///   Looks up a localized string similar to Unit testing.
         /// </summary>
         internal static string Features_QABenefit4 {
             get {
@@ -314,6 +323,51 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Internal project.
+        /// </summary>
+        internal static string Label_InternalProject {
+            get {
+                return ResourceManager.GetString("Label_InternalProject", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Outsource.
+        /// </summary>
+        internal static string Label_Outsource {
+            get {
+                return ResourceManager.GetString("Label_Outsource", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Quality Assurance.
+        /// </summary>
+        internal static string Label_QA {
+            get {
+                return ResourceManager.GetString("Label_QA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Social apps.
+        /// </summary>
+        internal static string Label_SocialApps {
+            get {
+                return ResourceManager.GetString("Label_SocialApps", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Support.
+        /// </summary>
+        internal static string Label_Support {
+            get {
+                return ResourceManager.GetString("Label_Support", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to UI / UX Design.
         /// </summary>
         internal static string Label_UIDesign {
@@ -323,8 +377,16 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;p&gt;Booklets for Belarusian exhibition company.&lt;/p&gt;
-        ///&lt;p&gt;Outsource project. Design.&lt;/p&gt;.
+        ///   Looks up a localized string similar to Web.
+        /// </summary>
+        internal static string Label_Web {
+            get {
+                return ResourceManager.GetString("Label_Web", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;p&gt;Booklets for Belarusian exhibition company.&lt;/p&gt;.
         /// </summary>
         internal static string Projects_BelinterexpoDescription {
             get {
@@ -333,8 +395,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;p&gt;Cargo Club - SaaS platform for logistics and transport companies.&lt;/p&gt;
-        ///&lt;p&gt;Outsource project. Full cycle product development.&lt;/p&gt;.
+        ///   Looks up a localized string similar to &lt;p&gt;Cargo Club - SaaS platform for logistics and transport companies.&lt;/p&gt;.
         /// </summary>
         internal static string Projects_CargoDescription {
             get {
@@ -343,7 +404,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to See our projects.
+        ///   Looks up a localized string similar to Projects.
         /// </summary>
         internal static string Projects_Header {
             get {
@@ -361,7 +422,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;p&gt;VerniMoment description&lt;/p&gt;.
+        ///   Looks up a localized string similar to &lt;p&gt;VerniMoment - dating service for CIS market.&lt;/p&gt;.
         /// </summary>
         internal static string Projects_VerniMomentDescription {
             get {
@@ -370,7 +431,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to We make products that really works!.
+        ///   Looks up a localized string similar to Launch you project with an experienced team!.
         /// </summary>
         internal static string Slogan {
             get {
@@ -379,16 +440,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Social networks.
-        /// </summary>
-        internal static string SocialNetworksHeader {
-            get {
-                return ResourceManager.GetString("SocialNetworksHeader", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Meet our team.
+        ///   Looks up a localized string similar to Core team.
         /// </summary>
         internal static string Team_Header {
             get {
@@ -397,7 +449,10 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;p&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. Datat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.         ///        ///laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, c [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to &lt;p&gt;Responsible for project management and customer relations.&lt;/p&gt;
+        ///&lt;p&gt;More than 6 years in IT. Launched few own projects with total investments 200k$.&lt;/p&gt;
+        ///&lt;p&gt;Projects were mentioned on Echo Moscow, AdWeek, Forbes, etc.&lt;/p&gt;
+        ///&lt;p&gt;Finalist at New York 2012 July Seed Camp competition.&lt;/p&gt;.
         /// </summary>
         internal static string Team_Member1Description {
             get {
@@ -406,7 +461,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Stanislav Brill.
+        ///   Looks up a localized string similar to Stanislav Bril.
         /// </summary>
         internal static string Team_Member1Name {
             get {
@@ -415,7 +470,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Office cleaner.
+        ///   Looks up a localized string similar to Manager.
         /// </summary>
         internal static string Team_Member1Position {
             get {
@@ -424,7 +479,9 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.         ///datat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim i [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to &lt;p&gt;Responsible for UI and UX. More than 50 successfully delivered projects.&lt;/p&gt;
+        ///&lt;p&gt;Experience in Web design as well as Mobile.&lt;/p&gt;
+        ///&lt;p&gt;Promo graphic and print graphic design.&lt;/p&gt;.
         /// </summary>
         internal static string Team_Member2Description {
             get {
@@ -442,7 +499,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to UI / UX Designer.
+        ///   Looks up a localized string similar to Art Director.
         /// </summary>
         internal static string Team_Member2Position {
             get {
@@ -451,7 +508,8 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;p&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. Datat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptate [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to &lt;p&gt;Responsible for development team. 5+ years of production experience in software development.&lt;/p&gt;
+        ///&lt;p&gt;Skilled .NET, C#, JavaScript, SQL, ASP.NET developer.&lt;/p&gt;.
         /// </summary>
         internal static string Team_Member3Description {
             get {
@@ -460,7 +518,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Alexander Neznau.
+        ///   Looks up a localized string similar to Alexander Kunavich.
         /// </summary>
         internal static string Team_Member3Name {
             get {
@@ -469,7 +527,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Developer.
+        ///   Looks up a localized string similar to Tech Lead.
         /// </summary>
         internal static string Team_Member3Position {
             get {

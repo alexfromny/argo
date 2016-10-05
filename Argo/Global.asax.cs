@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration;
 using System.Globalization;
 using System.Linq;
 using System.Threading;
@@ -19,7 +20,7 @@ namespace Argo
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
 
-        private static readonly string[] availableCultures = {"en-US", "ru-RU", "ua-UA", "pl-PL"};
+        private static string[] AvailableCultures => ConfigurationManager.AppSettings["Cultures"].Split(',');
 
         protected void Application_BeginRequest()
         {
@@ -31,7 +32,7 @@ namespace Argo
                 RouteData routeData = RouteTable.Routes.GetRouteData(currentContext);
 
                 var routeValue = routeData?.Values["culture"].ToString();
-                if (!String.IsNullOrWhiteSpace(routeValue) && availableCultures.Contains(routeValue))
+                if (!String.IsNullOrWhiteSpace(routeValue) && AvailableCultures.Contains(routeValue))
                 {
                     culture = routeValue;
                     UpdateCultureCookie(culture);

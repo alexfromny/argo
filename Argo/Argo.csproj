@@ -131,6 +131,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Text.resx</DependentUpon>
     </Compile>
+    <Compile Include="App_GlobalResources\Text.pl-PL.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Text.pl-PL.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Text.ru-RU.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Text.ru-RU.resx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -198,7 +208,6 @@
     <Content Include="Views\Home\_Team.cshtml" />
     <Content Include="Views\Common\LanguagesDropdown.cshtml" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Content Include="packages.config">
       <SubType>Designer</SubType>
@@ -209,6 +218,18 @@
     <Content Include="App_GlobalResources\Text.resx">
       <Generator>GlobalResourceProxyGenerator</Generator>
       <LastGenOutput>Text.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Text.ru-RU.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Text.ru-RU.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Text.pl-PL.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Text.pl-PL.designer.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <PropertyGroup>

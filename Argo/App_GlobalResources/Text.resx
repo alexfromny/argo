@@ -121,8 +121,8 @@
     <value>About us</value>
   </data>
   <data name="AboutUs_Text" xml:space="preserve">
-    <value>&lt;p&gt;&lt;b&gt;Argo Development is a new software development company. We provide full cycle development including business analysis, development, QA and support.&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. &lt;/p&gt;</value>
+    <value>&lt;p&gt;&lt;b&gt;Argo Development is a new outsource software development company. &lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;We specialized on launching SaaS projects, startups. Provide full cycle web and mobile development including Business Analysis, UI and UX Design, Development, Quality Assurance and Support. &lt;/p&gt;</value>
   </data>
   <data name="Button_ContactUs" xml:space="preserve">
     <value>Contact us</value>
@@ -131,19 +131,22 @@
     <value>Hire us!</value>
   </data>
   <data name="Contacts_Email" xml:space="preserve">
-    <value>info@argo.studio</value>
+    <value>info@argo.team</value>
   </data>
   <data name="Contacts_Header" xml:space="preserve">
     <value>Contacts</value>
   </data>
-  <data name="Contacts_Phone" xml:space="preserve">
-    <value>+375 (29) 848 484 84</value>
+  <data name="Contacts_Phone1" xml:space="preserve">
+    <value>+375 44 709 79 07</value>
+  </data>
+  <data name="Contacts_Phone2" xml:space="preserve">
+    <value>+48 530 450 573</value>
   </data>
   <data name="Contacts_SocialNetworksHeader" xml:space="preserve">
     <value>Social networks</value>
   </data>
   <data name="Features_DesignBenefit1" xml:space="preserve">
-    <value>User Interface</value>
+    <value>User Interface</value>
   </data>
   <data name="Features_DesignBenefit2" xml:space="preserve">
     <value>User Expirience / Prototyping</value>
@@ -158,31 +161,31 @@
     <value>Design</value>
   </data>
   <data name="Features_DevelopmentBenefit1" xml:space="preserve">
-    <value>User Interface</value>
+    <value>Web (JavaScript, .NET, C#)</value>
   </data>
   <data name="Features_DevelopmentBenefit2" xml:space="preserve">
-    <value>User Expirience / Prototyping</value>
+    <value>Mobile (C#, Swift, JAVA)</value>
   </data>
   <data name="Features_DevelopmentBenefit3" xml:space="preserve">
-    <value>Branding and Identity</value>
+    <value>Desktop (.NET, Swift)</value>
   </data>
   <data name="Features_DevelopmentBenefit4" xml:space="preserve">
-    <value>User Expirience / Prototyping</value>
+    <value>Cloud (.NET)</value>
   </data>
   <data name="Features_DevelopmentHeader" xml:space="preserve">
     <value>Development</value>
   </data>
   <data name="Features_QABenefit1" xml:space="preserve">
-    <value>User Interface</value>
+    <value>Test strategy writing</value>
   </data>
   <data name="Features_QABenefit2" xml:space="preserve">
-    <value>User Expirience / Prototyping</value>
+    <value>Manual testing</value>
   </data>
   <data name="Features_QABenefit3" xml:space="preserve">
-    <value>Branding and Identity</value>
+    <value>Automation testing (Selenium WD, C#)</value>
   </data>
   <data name="Features_QABenefit4" xml:space="preserve">
-    <value>User Expirience / Prototyping</value>
+    <value>Unit testing</value>
   </data>
   <data name="Features_QAHeader" xml:space="preserve">
     <value>Quality Assurance</value>
@@ -202,61 +205,80 @@
   <data name="Label_GraphicDesign" xml:space="preserve">
     <value>Graphic Design</value>
   </data>
+  <data name="Label_InternalProject" xml:space="preserve">
+    <value>Internal project</value>
+  </data>
+  <data name="Label_Outsource" xml:space="preserve">
+    <value>Outsource</value>
+  </data>
+  <data name="Label_QA" xml:space="preserve">
+    <value>Quality Assurance</value>
+  </data>
+  <data name="Label_SocialApps" xml:space="preserve">
+    <value>Social apps</value>
+  </data>
+  <data name="Label_Support" xml:space="preserve">
+    <value>Support</value>
+  </data>
   <data name="Label_UIDesign" xml:space="preserve">
     <value>UI / UX Design</value>
   </data>
+  <data name="Label_Web" xml:space="preserve">
+    <value>Web</value>
+  </data>
   <data name="Projects_BelinterexpoDescription" xml:space="preserve">
-    <value>&lt;p&gt;Booklets for Belarusian exhibition company.&lt;/p&gt;
-&lt;p&gt;Outsource project. Design.&lt;/p&gt;</value>
+    <value>&lt;p&gt;Booklets for Belarusian exhibition company.&lt;/p&gt;</value>
   </data>
   <data name="Projects_CargoDescription" xml:space="preserve">
-    <value>&lt;p&gt;Cargo Club - SaaS platform for logistics and transport companies.&lt;/p&gt;
-&lt;p&gt;Outsource project. Full cycle product development.&lt;/p&gt;</value>
+    <value>&lt;p&gt;Cargo Club - SaaS platform for logistics and transport companies.&lt;/p&gt;</value>
   </data>
   <data name="Projects_Header" xml:space="preserve">
-    <value>See our projects</value>
+    <value>Projects</value>
   </data>
   <data name="Projects_Proposal" xml:space="preserve">
     <value>Here can be your project!</value>
   </data>
   <data name="Projects_VerniMomentDescription" xml:space="preserve">
-    <value>&lt;p&gt;VerniMoment description&lt;/p&gt;</value>
+    <value>&lt;p&gt;VerniMoment - dating service for CIS market.&lt;/p&gt;</value>
   </data>
   <data name="Slogan" xml:space="preserve">
-    <value>We make products that really works!</value>
-  </data>
-  <data name="SocialNetworksHeader" xml:space="preserve">
-    <value>Social networks</value>
+    <value>Launch you project with an experienced team!</value>
   </data>
   <data name="Team_Header" xml:space="preserve">
-    <value>Meet our team</value>
+    <value>Core team</value>
   </data>
   <data name="Team_Member1Description" xml:space="preserve">
-    <value>&lt;p&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. Datat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</value>
+    <value>&lt;p&gt;Responsible for project management and customer relations.&lt;/p&gt;
+&lt;p&gt;More than 6 years in IT. Launched few own projects with total investments 200k$.&lt;/p&gt;
+&lt;p&gt;Projects were mentioned on Echo Moscow, AdWeek, Forbes, etc.&lt;/p&gt;
+&lt;p&gt;Finalist at New York 2012 July Seed Camp competition.&lt;/p&gt;</value>
   </data>
   <data name="Team_Member1Name" xml:space="preserve">
-    <value>Stanislav Brill</value>
+    <value>Stanislav Bril</value>
   </data>
   <data name="Team_Member1Position" xml:space="preserve">
-    <value>Office cleaner</value>
+    <value>Manager</value>
   </data>
   <data name="Team_Member2Description" xml:space="preserve">
-    <value>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. datat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</value>
+    <value>&lt;p&gt;Responsible for UI and UX. More than 50 successfully delivered projects.&lt;/p&gt;
+&lt;p&gt;Experience in Web design as well as Mobile.&lt;/p&gt;
+&lt;p&gt;Promo graphic and print graphic design.&lt;/p&gt;</value>
   </data>
   <data name="Team_Member2Name" xml:space="preserve">
     <value>Artiom Petrykin</value>
   </data>
   <data name="Team_Member2Position" xml:space="preserve">
-    <value>UI / UX Designer</value>
+    <value>Art Director</value>
   </data>
   <data name="Team_Member3Description" xml:space="preserve">
-    <value>&lt;p&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. Datat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</value>
+    <value>&lt;p&gt;Responsible for development team. 5+ years of production experience in software development.&lt;/p&gt;
+&lt;p&gt;Skilled .NET, C#, JavaScript, SQL, ASP.NET developer.&lt;/p&gt;</value>
   </data>
   <data name="Team_Member3Name" xml:space="preserve">
-    <value>Alexander Neznau</value>
+    <value>Alexander Kunavich</value>
   </data>
   <data name="Team_Member3Position" xml:space="preserve">
-    <value>Developer</value>
+    <value>Tech Lead</value>
   </data>
   <data name="Title_Index" xml:space="preserve">
     <value>Argo</value>

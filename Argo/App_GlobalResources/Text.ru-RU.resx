@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutUs_Header" xml:space="preserve">
+    <value>О нас</value>
+  </data>
+  <data name="AboutUs_Text" xml:space="preserve">
+    <value>&lt;p&gt;&lt;b&gt;Argo Development – новая команда, которая занимется разработкой программного обеспечения на заказ.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Мы специализируемся на запуске SaaS проектов и стартапов. Предоставляем полный цикл разработки вэб и мобильных проектов включая бизнес аналитику, UI и UX дизайн, разработку, контроль качества и поддержку. &lt;/p&gt;</value>
+  </data>
+  <data name="Button_ContactUs" xml:space="preserve">
+    <value>Связаться с нами</value>
+  </data>
+  <data name="Button_HireUs" xml:space="preserve">
+    <value>Нанять нас</value>
+  </data>
+  <data name="Contacts_Email" xml:space="preserve">
+    <value>info@argo.team</value>
+  </data>
+  <data name="Contacts_Header" xml:space="preserve">
+    <value>Контакты</value>
+  </data>
+  <data name="Contacts_Phone1" xml:space="preserve">
+    <value>+375 44 709 79 07</value>
+  </data>
+  <data name="Contacts_Phone2" xml:space="preserve">
+    <value>+48 530 450 573</value>
+  </data>
+  <data name="Contacts_SocialNetworksHeader" xml:space="preserve">
+    <value>Мы в социальных сетях</value>
+  </data>
+  <data name="Features_DesignBenefit1" xml:space="preserve">
+    <value>Пользовательский интерфейс</value>
+  </data>
+  <data name="Features_DesignBenefit2" xml:space="preserve">
+    <value>Взаимодействие пользователя / прототипирование</value>
+  </data>
+  <data name="Features_DesignBenefit3" xml:space="preserve">
+    <value>Брендирование</value>
+  </data>
+  <data name="Features_DesignBenefit4" xml:space="preserve">
+    <value>Графический дизайн (буклеты, баннеры и т.д)</value>
+  </data>
+  <data name="Features_DesignHeader" xml:space="preserve">
+    <value>Дизайн</value>
+  </data>
+  <data name="Features_DevelopmentBenefit1" xml:space="preserve">
+    <value>Web (JavaScript, .NET, C#)</value>
+  </data>
+  <data name="Features_DevelopmentBenefit2" xml:space="preserve">
+    <value>Mobile (C#, Swift, JAVA)</value>
+  </data>
+  <data name="Features_DevelopmentBenefit3" xml:space="preserve">
+    <value>Desktop (.NET, Swift)</value>
+  </data>
+  <data name="Features_DevelopmentBenefit4" xml:space="preserve">
+    <value>Cloud (.NET)</value>
+  </data>
+  <data name="Features_DevelopmentHeader" xml:space="preserve">
+    <value>Разработка</value>
+  </data>
+  <data name="Features_QABenefit1" xml:space="preserve">
+    <value>Написание тестовой стратегии</value>
+  </data>
+  <data name="Features_QABenefit2" xml:space="preserve">
+    <value>Ручное тестирование</value>
+  </data>
+  <data name="Features_QABenefit3" xml:space="preserve">
+    <value>Автоматизированное тестирование (связка технологий Selenium WB и C#)</value>
+  </data>
+  <data name="Features_QABenefit4" xml:space="preserve">
+    <value>Unit тестирование</value>
+  </data>
+  <data name="Features_QAHeader" xml:space="preserve">
+    <value>Контроль качества</value>
+  </data>
+  <data name="Footer_Copyright" xml:space="preserve">
+    <value>Argo.studio - Все права защищены</value>
+  </data>
+  <data name="Header_LogoLabel" xml:space="preserve">
+    <value>Software Development Company</value>
+  </data>
+  <data name="Label_Branding" xml:space="preserve">
+    <value>Брендирование</value>
+  </data>
+  <data name="Label_Development" xml:space="preserve">
+    <value>Разработка</value>
+  </data>
+  <data name="Label_GraphicDesign" xml:space="preserve">
+    <value>Графический дизайн</value>
+  </data>
+  <data name="Label_InternalProject" xml:space="preserve">
+    <value>Внутренний проект</value>
+  </data>
+  <data name="Label_Outsource" xml:space="preserve">
+    <value>Проект на заказ</value>
+  </data>
+  <data name="Label_QA" xml:space="preserve">
+    <value>Контроль качества</value>
+  </data>
+  <data name="Label_SocialApps" xml:space="preserve">
+    <value>Приложения для социальных сетей</value>
+  </data>
+  <data name="Label_Support" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="Label_UIDesign" xml:space="preserve">
+    <value>UI/UX Дизайн</value>
+  </data>
+  <data name="Label_Web" xml:space="preserve">
+    <value>Веб</value>
+  </data>
+  <data name="Projects_BelinterexpoDescription" xml:space="preserve">
+    <value>&lt;p&gt;Буклеты для Белорусской выставочной компании.&lt;/p&gt;</value>
+  </data>
+  <data name="Projects_CargoDescription" xml:space="preserve">
+    <value>&lt;p&gt;Cargo Club - SaaS платформа для логистических и транспортных компаний&lt;/p&gt;</value>
+  </data>
+  <data name="Projects_Header" xml:space="preserve">
+    <value>Проекты</value>
+  </data>
+  <data name="Projects_Proposal" xml:space="preserve">
+    <value>Здесь может быть Ваш проект!</value>
+  </data>
+  <data name="Projects_VerniMomentDescription" xml:space="preserve">
+    <value>&lt;p&gt;ВерниМомент - сервис знакомств для рынка СНГ.&lt;/p&gt;</value>
+  </data>
+  <data name="Slogan" xml:space="preserve">
+    <value>Запустите Ваш проект с командой профессионалов</value>
+  </data>
+  <data name="Team_Header" xml:space="preserve">
+    <value>Команда</value>
+  </data>
+  <data name="Team_Member1Description" xml:space="preserve">
+    <value>&lt;p&gt;Ответственный за управление проектами и общение с заказчиками.&lt;/p&gt;
+&lt;p&gt;Более 6 лет в IT. Имеет опыт запуска проектов с привлеченными инвестициями более 200 000$.&lt;/p&gt;
+&lt;p&gt;Запущенные проекты были упомянуты в таких СМИ как Эхо Москвы, AdWeek, Forbes и другие.&lt;/p&gt;
+&lt;p&gt;Финалист конкурса Seed Camp в Нью Йорке.&lt;/p&gt;</value>
+  </data>
+  <data name="Team_Member1Name" xml:space="preserve">
+    <value>Станислав Бриль</value>
+  </data>
+  <data name="Team_Member1Position" xml:space="preserve">
+    <value>Manager</value>
+  </data>
+  <data name="Team_Member2Description" xml:space="preserve">
+    <value>&lt;p&gt;Ответственный за UI и UX. Более 50 успешно завершенных проектов.&lt;/p&gt;
+&lt;p&gt;Опыт в вэб дизайне и дизайне для мобильных платформ.&lt;/p&gt;
+&lt;p&gt;Опыт работы с промо и печатной графикой.&lt;/p&gt;</value>
+  </data>
+  <data name="Team_Member2Name" xml:space="preserve">
+    <value>Артем Петрыкин</value>
+  </data>
+  <data name="Team_Member2Position" xml:space="preserve">
+    <value>Art Director</value>
+  </data>
+  <data name="Team_Member3Description" xml:space="preserve">
+    <value>&lt;p&gt;Ответственный за команду разработки.&lt;/p&gt;
+&lt;p&gt;Более 5 лет успешного опыта в разработке программного обеспечения.&lt;/p&gt;
+&lt;p&gt;Опытный .NET, C#, JavaScript, SQL, ASP.NET разработчик.&lt;/p&gt;</value>
+  </data>
+  <data name="Team_Member3Name" xml:space="preserve">
+    <value>Александр Кунавич</value>
+  </data>
+  <data name="Team_Member3Position" xml:space="preserve">
+    <value>Tech Lead</value>
+  </data>
+  <data name="Title_Index" xml:space="preserve">
+    <value>Argo</value>
+  </data>
+  <data name="TopMenu_AboutUs" xml:space="preserve">
+    <value>О нас</value>
+  </data>
+  <data name="TopMenu_Company" xml:space="preserve">
+    <value>Компания</value>
+  </data>
+  <data name="TopMenu_Projects" xml:space="preserve">
+    <value>Проекты</value>
+  </data>
+  <data name="TopMenu_Team" xml:space="preserve">
+    <value>Команда</value>
+  </data>
+</root>

@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Threading;
 using System.Web.Mvc;
@@ -11,18 +13,29 @@ namespace Argo.Controllers
     {
         public ActionResult LanguagesDropdown()
         {
-            var languages = new List<Language>
-            {
-                new Language {Name = "ENG", Culture = "en-US"},
-                new Language {Name = "RUS", Culture = "ru-RU"},
-                new Language {Name = "UKR", Culture = "uk-UA"},
-                new Language {Name = "PLN", Culture = "pl-PL"}
-            };
+            var languages = Languages;
 
             var currentCulture = Thread.CurrentThread.CurrentUICulture.Name;
             languages.Single(x => x.Culture == currentCulture).IsActive = true;
 
             return PartialView(languages);
+        }
+
+        private static List<Language> Languages
+        {
+            get
+            {
+                var cultures = ConfigurationManager.AppSettings["Cultures"].Split(',');
+                var culturesNames = ConfigurationManager.AppSettings["CulturesNames"].Split(',');
+                var result = new List<Language>();
+
+                for (var i = 0; i < Math.Min(culturesNames.Length, cultures.Length); i++)
+                {
+                    result.Add(new Language { Name = culturesNames[i], Culture = cultures[i] });
+                }
+
+                return result;
+            }
         }
     }
 }
