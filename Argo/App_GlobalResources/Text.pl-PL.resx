@@ -248,10 +248,7 @@
     <value>Zespół</value>
   </data>
   <data name="Team_Member1Description" xml:space="preserve">
-    <value>&lt;p&gt;Odpowiedzialny za zarządzanie projektami i komunikację z klientami.&lt;/p&gt;
-&lt;p&gt;Ponad 6 lat doświadczenia w IT. Ma doświadczenie w projektach typu start-up z udziałem inwestycji w wysokości ponad 200 000 $.&lt;/p&gt;
-&lt;p&gt;Rozpoczęte projekty zostały wymienione w takich mediach jak Echo Moskwy, Adweek, Forbes i innych.&lt;/p&gt;
-&lt;p&gt;Finalista konkursu Seed Camp w Nowym Jorku.&lt;/p&gt;</value>
+    <value>&lt;p&gt;Odpowiedzialny za zarządzanie projektami i komunikację z klientami. Ponad 6 lat doświadczenia w IT. Ma doświadczenie w projektach typu start-up z udziałem inwestycji w wysokości ponad 200 000 $. Rozpoczęte projekty zostały wymienione w takich mediach jak Echo Moskwy, Adweek, Forbes i innych. Finalista konkursu Seed Camp w Nowym Jorku.&lt;/p&gt;</value>
   </data>
   <data name="Team_Member1Name" xml:space="preserve">
     <value>Stanislav Bril</value>
@@ -260,9 +257,7 @@
     <value>Manager</value>
   </data>
   <data name="Team_Member2Description" xml:space="preserve">
-    <value>&lt;p&gt;Odpowiedzialny za UI i UX. Ponad 50 zrealizowanych z sukcesem projektów.&lt;/p&gt;
-&lt;p&gt;Doświadczenie w tworzeniu stron internetowych, aplikacji webowych i mobilnych.&lt;/p&gt;
-&lt;p&gt;Doświadczenie w materiałach promocyjnych i drukowanych.&lt;/p&gt;</value>
+    <value>&lt;p&gt;Odpowiedzialny za UI i UX. Ponad 50 zrealizowanych z sukcesem projektów. Doświadczenie w tworzeniu stron internetowych, aplikacji webowych i mobilnych. Doświadczenie w materiałach promocyjnych i drukowanych.&lt;/p&gt;</value>
   </data>
   <data name="Team_Member2Name" xml:space="preserve">
     <value>Artiom Petrykin</value>
@@ -271,8 +266,7 @@
     <value>Art Director</value>
   </data>
   <data name="Team_Member3Description" xml:space="preserve">
-    <value>&lt;p&gt;Odpowiedzialny za zespół developerski.&lt;/p&gt;
-&lt;p&gt;Ponad 5 lat pozytywnego doświadczenia w developmencie oprogramowania. Doświadczony w: .NET, C #, JavaScript, SQL, ASP.NET deweloper.&lt;/p&gt;</value>
+    <value>&lt;p&gt;Odpowiedzialny za zespół developerski. Ponad 5 lat pozytywnego doświadczenia w developmencie oprogramowania. Doświadczony w: .NET, C #, JavaScript, SQL, ASP.NET deweloper.&lt;/p&gt;</value>
   </data>
   <data name="Team_Member3Name" xml:space="preserve">
     <value>Alexander Kunavich</value>

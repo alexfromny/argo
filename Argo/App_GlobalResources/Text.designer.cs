@@ -449,10 +449,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;p&gt;Responsible for project management and customer relations.&lt;/p&gt;
-        ///&lt;p&gt;More than 6 years in IT. Launched few own projects with total investments 200k$.&lt;/p&gt;
-        ///&lt;p&gt;Projects were mentioned on Echo Moscow, AdWeek, Forbes, etc.&lt;/p&gt;
-        ///&lt;p&gt;Finalist at New York 2012 July Seed Camp competition.&lt;/p&gt;.
+        ///   Looks up a localized string similar to &lt;p&gt;Responsible for project management and customer relations. More than 6 years in IT. Launched few own projects with total investments 200k$. Projects were mentioned on Echo Moscow, AdWeek, Forbes, etc. Finalist at New York 2012 July Seed Camp competition.&lt;/p&gt;.
         /// </summary>
         internal static string Team_Member1Description {
             get {
@@ -479,9 +476,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;p&gt;Responsible for UI and UX. More than 50 successfully delivered projects.&lt;/p&gt;
-        ///&lt;p&gt;Experience in Web design as well as Mobile.&lt;/p&gt;
-        ///&lt;p&gt;Promo graphic and print graphic design.&lt;/p&gt;.
+        ///   Looks up a localized string similar to &lt;p&gt;Responsible for UI and UX. More than 50 successfully delivered projects. Experience in Web design as well as Mobile. Promo graphic and print graphic design.&lt;/p&gt;.
         /// </summary>
         internal static string Team_Member2Description {
             get {
@@ -508,8 +503,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;p&gt;Responsible for development team. 5+ years of production experience in software development.&lt;/p&gt;
-        ///&lt;p&gt;Skilled .NET, C#, JavaScript, SQL, ASP.NET developer.&lt;/p&gt;.
+        ///   Looks up a localized string similar to &lt;p&gt;Responsible for development team. 5+ years of production experience in software development. Skilled .NET, C#, JavaScript, SQL, ASP.NET developer.&lt;/p&gt;.
         /// </summary>
         internal static string Team_Member3Description {
             get {

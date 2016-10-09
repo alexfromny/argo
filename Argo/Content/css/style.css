@@ -671,6 +671,8 @@ h2 {
 
 .projects .project {
   height: 300px;
+  background: url("") center center no-repeat;
+  background-size: 100%;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
@@ -684,8 +686,11 @@ h2 {
     left: 0;
     right: 0;
     z-index: 0;
-    background: url("") center center no-repeat;
-    background-size: cover; }
+    background: url("") 0 0 no-repeat;
+    background-size: cover;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px; }
   .projects .project .project-details {
     position: absolute;
     top: 0;
@@ -707,44 +712,70 @@ h2 {
     margin: 0 0 35px; }
     .projects .project .project-description p {
       margin: 0; }
-  .projects .project .project-labels .project-label {
-    display: inline-block;
-    vertical-align: top;
-    font-family: 'Open Sans', Tahoma, Sans-serif;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 30px;
-    color: #a7b1bd;
-    margin: 0 5px 0 0;
-    padding: 0 22px;
-    border: 1px solid #a7b1bd;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    border-radius: 3px; }
-  .projects .project.project-cargo .project-image {
-    background-image: url("../img/projects/cargo.jpg"); }
-    .highresdisplay .projects .project.project-cargo .project-image {
-      background-image: url("../img/projects/cargo-2x.jpg"); }
-  .projects .project.project-cargo .project-logo {
-    background-image: url("../img/projects/cargo-logo.png");
-    width: 122px;
-    height: 38px; }
-  .projects .project.project-vernimoment .project-image {
-    background-image: url("../img/projects/vernimoment.jpg"); }
-    .highresdisplay .projects .project.project-vernimoment .project-image {
-      background-image: url("../img/projects/vernimoment-2x.jpg"); }
-  .projects .project.project-vernimoment .project-logo {
-    background-image: url("../img/projects/vernimoment-logo.png");
-    width: 145px;
-    height: 32px; }
-  .projects .project.project-belinterexpo .project-image {
-    background-image: url("../img/projects/belinterexpo.jpg"); }
-    .highresdisplay .projects .project.project-belinterexpo .project-image {
-      background-image: url("../img/projects/belinterexpo-2x.jpg"); }
-  .projects .project.project-belinterexpo .project-logo {
-    background-image: url("../img/projects/belinterexpo-logo.png");
-    width: 145px;
-    height: 32px; }
+  .projects .project .project-labels {
+    font-size: 0; }
+    .projects .project .project-labels .project-label {
+      cursor: default;
+      display: inline-block;
+      vertical-align: top;
+      font-family: 'Open Sans', Tahoma, Sans-serif;
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 30px;
+      color: #a7b1bd;
+      margin: 0 5px 5px 0;
+      padding: 0 22px;
+      border: 1px solid #a7b1bd;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      border-radius: 3px; }
+  .projects .project.project-cargo {
+    background-image: url("../img/projects/cargo-bg.png"); }
+    .projects .project.project-cargo .project-image {
+      background-image: url("../img/projects/cargo-image.png");
+      background-position: right bottom;
+      background-size: 628px 251px; }
+    .projects .project.project-cargo .project-logo {
+      background-image: url("../img/projects/cargo-logo.png");
+      background-size: 100%;
+      width: 122px;
+      height: 38px; }
+    .project-image .highresdisplay .projects .project.project-cargo {
+      background-image: url("../img/projects/cargo-image-2x.png"); }
+    .highresdisplay .projects .project.project-cargo .project-logo {
+      background-image: url("../img/projects/cargo-logo-2x.png"); }
+  .projects .project.project-vernimoment {
+    background-image: url("../img/projects/vernimoment-bg.png"); }
+    .projects .project.project-vernimoment .project-image {
+      background-image: url("../img/projects/vernimoment-image.png");
+      background-position: right bottom;
+      background-size: 636px 258px; }
+    .projects .project.project-vernimoment .project-logo {
+      background-image: url("../img/projects/vernimoment-logo.png");
+      background-size: 100%;
+      width: 107px;
+      height: 41px; }
+    .highresdisplay .projects .project.project-vernimoment {
+      background-image: url("../img/projects/vernimoment-bg-2x.png"); }
+      .project-image .highresdisplay .projects .project.project-vernimoment {
+        background-image: url("../img/projects/vernimoment-image-2x.png"); }
+      .highresdisplay .projects .project.project-vernimoment .project-logo {
+        background-image: url("../img/projects/vernimoment-logo-2x.png"); }
+  .projects .project.project-belinterexpo {
+    background: #252c36; }
+    .projects .project.project-belinterexpo .project-image {
+      background-image: url("../img/projects/belinterexpo-image.png");
+      background-position: right center;
+      background-size: 811px 465px; }
+    .projects .project.project-belinterexpo .project-logo {
+      background-image: url("../img/projects/belinterexpo-logo.png");
+      background-size: 100%;
+      width: 145px;
+      height: 32px; }
+    .project-image .highresdisplay .projects .project.project-belinterexpo {
+      background-image: url("../img/projects/belinterexpo-image-2x.png"); }
+    .highresdisplay .projects .project.project-belinterexpo .project-logo {
+      background-image: url("../img/projects/belinterexpo-logo-2x.png"); }
 
 .projects .project-empty {
   height: 300px;
@@ -781,14 +812,25 @@ h2 {
     margin: 20px 0 0; }
     .team .team-member:first-child {
       margin-top: 0; }
-    .team .team-member img {
+    .team .team-member .team-member-image {
       width: 70px;
       height: 70px;
       display: block;
       margin: 0 auto 15px;
-      -moz-border-radius: 50%;
-      -webkit-border-radius: 50%;
-      border-radius: 50%; }
+      background: url("") 0 0 no-repeat;
+      background-size: 100%; }
+      .team .team-member .team-member-image.team-member-image-1 {
+        background-image: url("../img/team/team-member-1.png"); }
+        .highresdisplay .team .team-member .team-member-image.team-member-image-1 {
+          background-image: url("../img/team/team-member-1-2x.png"); }
+      .team .team-member .team-member-image.team-member-image-2 {
+        background-image: url("../img/team/team-member-2.png"); }
+        .highresdisplay .team .team-member .team-member-image.team-member-image-2 {
+          background-image: url("../img/team/team-member-2-2x.png"); }
+      .team .team-member .team-member-image.team-member-image-3 {
+        background-image: url("../img/team/team-member-3.png"); }
+        .highresdisplay .team .team-member .team-member-image.team-member-image-3 {
+          background-image: url("../img/team/team-member-3-2x.png"); }
     .team .team-member .team-member-name {
       font-family: 'Open Sans', Tahoma, Sans-serif;
       font-weight: 700;
@@ -835,7 +877,7 @@ h2 {
         margin: 0 1.625% 0 0;
         display: inline-block;
         vertical-align: top;
-        min-height: 430px;
+        min-height: 300px;
         /*position: relative;
             float: left;*/
         /*&:nth-child(1) { left: 33%; }

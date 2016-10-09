@@ -13,12 +13,37 @@
             margin-top: 0;
         }
 
-        img {
+        .team-member-image {
             width: 70px;
             height: 70px;
             display: block;
             margin: 0 auto 15px;
-            @include border-radius(50%);
+            background: url('') 0 0 no-repeat;
+            background-size: 100%;
+
+            &.team-member-image-1 {
+                background-image: url('../img/team/team-member-1.png');
+
+                .highresdisplay & {
+                    background-image: url('../img/team/team-member-1-2x.png');
+                }
+            }
+
+            &.team-member-image-2 {
+                background-image: url('../img/team/team-member-2.png');
+
+                .highresdisplay & {
+                    background-image: url('../img/team/team-member-2-2x.png');
+                }
+            }
+
+            &.team-member-image-3 {
+                background-image: url('../img/team/team-member-3.png');
+
+                .highresdisplay & {
+                    background-image: url('../img/team/team-member-3-2x.png');
+                }
+            }
         }
 
         .team-member-name {
@@ -71,7 +96,7 @@
             margin: 0 1.625% 0 0;
             display: inline-block;
             vertical-align: top;
-            min-height: 430px;
+            min-height: 300px;
 
             /*position: relative;
             float: left;*/

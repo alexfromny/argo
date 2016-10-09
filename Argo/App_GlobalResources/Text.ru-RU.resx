@@ -248,10 +248,7 @@
     <value>Команда</value>
   </data>
   <data name="Team_Member1Description" xml:space="preserve">
-    <value>&lt;p&gt;Ответственный за управление проектами и общение с заказчиками.&lt;/p&gt;
-&lt;p&gt;Более 6 лет в IT. Имеет опыт запуска проектов с привлеченными инвестициями более 200 000$.&lt;/p&gt;
-&lt;p&gt;Запущенные проекты были упомянуты в таких СМИ как Эхо Москвы, AdWeek, Forbes и другие.&lt;/p&gt;
-&lt;p&gt;Финалист конкурса Seed Camp в Нью Йорке.&lt;/p&gt;</value>
+    <value>&lt;p&gt;Ответственный за управление проектами и общение с заказчиками. Более 6 лет в IT. Имеет опыт запуска проектов с привлеченными инвестициями более 200 000$. Запущенные проекты были упомянуты в таких СМИ как Эхо Москвы, AdWeek, Forbes и другие. Финалист конкурса Seed Camp в Нью Йорке.&lt;/p&gt;</value>
   </data>
   <data name="Team_Member1Name" xml:space="preserve">
     <value>Станислав Бриль</value>
@@ -260,9 +257,7 @@
     <value>Manager</value>
   </data>
   <data name="Team_Member2Description" xml:space="preserve">
-    <value>&lt;p&gt;Ответственный за UI и UX. Более 50 успешно завершенных проектов.&lt;/p&gt;
-&lt;p&gt;Опыт в вэб дизайне и дизайне для мобильных платформ.&lt;/p&gt;
-&lt;p&gt;Опыт работы с промо и печатной графикой.&lt;/p&gt;</value>
+    <value>&lt;p&gt;Ответственный за UI и UX. Более 50 успешно завершенных проектов. Опыт в вэб дизайне и дизайне для мобильных платформ. Опыт работы с промо и печатной графикой.&lt;/p&gt;</value>
   </data>
   <data name="Team_Member2Name" xml:space="preserve">
     <value>Артем Петрыкин</value>
@@ -271,9 +266,7 @@
     <value>Art Director</value>
   </data>
   <data name="Team_Member3Description" xml:space="preserve">
-    <value>&lt;p&gt;Ответственный за команду разработки.&lt;/p&gt;
-&lt;p&gt;Более 5 лет успешного опыта в разработке программного обеспечения.&lt;/p&gt;
-&lt;p&gt;Опытный .NET, C#, JavaScript, SQL, ASP.NET разработчик.&lt;/p&gt;</value>
+    <value>&lt;p&gt;Ответственный за команду разработки. Более 5 лет успешного опыта в разработке программного обеспечения. Опытный .NET, C#, JavaScript, SQL, ASP.NET разработчик.&lt;/p&gt;</value>
   </data>
   <data name="Team_Member3Name" xml:space="preserve">
     <value>Александр Кунавич</value>
