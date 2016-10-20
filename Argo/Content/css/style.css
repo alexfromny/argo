@@ -670,35 +670,33 @@ h2 {
         min-height: 100px; } }
 
 .projects .project {
-  height: 300px;
+  min-height: 300px;
   background: url("") center center no-repeat;
-  background-size: 100%;
+  background-size: cover;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
   margin: 0 0 10px;
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  padding: 0 0 185px;
+  overflow: hidden; }
   .projects .project .project-image {
     position: absolute;
-    top: 0;
     bottom: 0;
-    left: 0;
-    right: 0;
+    left: -25%;
+    right: -25%;
     z-index: 0;
-    background: url("") 0 0 no-repeat;
-    background-size: cover;
+    height: 185px;
+    background: url("") center bottom no-repeat;
+    background-size: 100%;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     border-radius: 3px; }
   .projects .project .project-details {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
+    position: relative;
     z-index: 1;
-    padding: 75px 55px;
-    max-width: 550px; }
+    padding: 40px 35px; }
   .projects .project .project-logo {
     display: block;
     background: url("") 0 0 no-repeat;
@@ -733,8 +731,7 @@ h2 {
     background-image: url("../img/projects/cargo-bg.png"); }
     .projects .project.project-cargo .project-image {
       background-image: url("../img/projects/cargo-image.png");
-      background-position: right bottom;
-      background-size: 628px 251px; }
+      background-size: 471px 188.25px; }
     .projects .project.project-cargo .project-logo {
       background-image: url("../img/projects/cargo-logo.png");
       background-size: 100%;
@@ -748,8 +745,7 @@ h2 {
     background-image: url("../img/projects/vernimoment-bg.png"); }
     .projects .project.project-vernimoment .project-image {
       background-image: url("../img/projects/vernimoment-image.png");
-      background-position: right bottom;
-      background-size: 636px 258px; }
+      background-size: 477px 193.5px; }
     .projects .project.project-vernimoment .project-logo {
       background-image: url("../img/projects/vernimoment-logo.png");
       background-size: 100%;
@@ -765,8 +761,9 @@ h2 {
     background: #252c36; }
     .projects .project.project-belinterexpo .project-image {
       background-image: url("../img/projects/belinterexpo-image.png");
-      background-position: right center;
-      background-size: 811px 465px; }
+      background-size: 100%;
+      background-position: center top;
+      height: 220px; }
     .projects .project.project-belinterexpo .project-logo {
       background-image: url("../img/projects/belinterexpo-logo.png");
       background-size: 100%;
@@ -778,18 +775,16 @@ h2 {
       background-image: url("../img/projects/belinterexpo-logo-2x.png"); }
 
 .projects .project-empty {
-  height: 300px;
   border: 1px dashed #e2e2e2;
-  background: #f2f3f5 url("../img/projects/empty-bg.svg") 27.5px 32.5px no-repeat;
+  background: #f2f3f5 url("../img/projects/empty-bg.svg") 10px 40px no-repeat;
   background-size: 276px 159.5px;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
   position: relative;
   z-index: 1;
-  padding: 120px 0 0 735px; }
+  padding: 250px 35px 40px; }
   .projects .project-empty .project-details {
-    display: inline-block;
     vertical-align: top;
     text-align: center; }
   .projects .project-empty .project-empty-description {
@@ -797,7 +792,51 @@ h2 {
     font-weight: 300;
     font-size: 18px;
     line-height: 1em;
-    margin: 0 0 20px; }
+    margin: 0 0 20px;
+    text-align: center; }
+
+@media screen and (min-width: 764px) {
+  .projects .project {
+    height: 300px;
+    background-size: cover;
+    padding: 0; }
+    .projects .project .project-image {
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: auto;
+      height: auto;
+      width: 50%; }
+    .projects .project .project-details {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      padding: 45px 35px;
+      width: 50%; }
+    .projects .project.project-cargo .project-image {
+      background-position: right bottom;
+      background-size: 100%; }
+    .projects .project.project-vernimoment .project-image {
+      background-position: right bottom;
+      background-size: 100%; }
+    .projects .project.project-belinterexpo .project-image {
+      background-position: right center;
+      top: -25%;
+      bottom: -25%;
+      background-size: 100%;
+      width: 70%;
+      height: auto; }
+  .projects .project-empty {
+    height: 300px;
+    background-position: 7.5px 42.5px;
+    padding: 120px 0 0 50%; } }
+
+@media screen and (min-width: 1280px) {
+  .projects .project .project-details {
+    padding: 75px 55px; }
+  .projects .project-empty {
+    background-position: 27.5px 72.5px; } }
 
 .team {
   padding: 0 0 50px;
