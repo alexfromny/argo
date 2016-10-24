@@ -160,6 +160,8 @@
     <Content Include="Content\img\features\icon-qa.svg" />
     <Content Include="Content\img\header-bg-2x.jpg" />
     <Content Include="Content\img\header-bg.jpg" />
+    <Content Include="Content\img\icons\menu-close.png" />
+    <Content Include="Content\img\icons\menu-open.png" />
     <Content Include="Content\img\logo.svg" />
     <Content Include="Content\img\projects\belinterexpo-image-2x.png" />
     <Content Include="Content\img\projects\belinterexpo-image.png" />
@@ -178,9 +180,6 @@
     <Content Include="Content\img\projects\vernimoment-image.png" />
     <Content Include="Content\img\projects\vernimoment-logo-2x.png" />
     <Content Include="Content\img\projects\vernimoment-logo.png" />
-    <Content Include="Content\img\team-member-1.jpg" />
-    <Content Include="Content\img\team-member-2.jpg" />
-    <Content Include="Content\img\team-member-3.jpg" />
     <Content Include="Content\img\team\team-member-1-2x.png" />
     <Content Include="Content\img\team\team-member-1.png" />
     <Content Include="Content\img\team\team-member-2-2x.png" />

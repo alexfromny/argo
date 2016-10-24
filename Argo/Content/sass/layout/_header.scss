@@ -1,6 +1,6 @@
 #header {
     display: block;
-    height: 700px;
+    height: 568px;
     background: url('../img/header-bg.jpg') center center no-repeat;
     background-size: cover;
     margin: 0 0 -155px;
@@ -10,13 +10,14 @@
     }
 
     .header-bar {
+        background: #182030;
         position: fixed;
         top: 0;
         left: 0;
         right: 0;
         z-index: 99;
         padding: 20px 0 0;
-        height: 70px;
+        height: 55px;
         @include transition(background, 0.5s);
 
         &.is-fixed {
@@ -28,60 +29,138 @@
         float: left;
         line-height: 20px;
         @include font-normal();
-        font-size: $text-normal-size;
+        font-size: 0;
         color: #FFF;
         vertical-align: top;
-        padding: 5px 0 0;
+        padding: 0;
     }
 
     .header-logo {
         display: inline-block;
         vertical-align: top;
-        background: url('../img/logo.svg') -8px -10px no-repeat;
-        background-size: 90px 47px;
-        width: 71px;
-        height: 32px;
+        background: url('../img/logo.svg') -6px -9px no-repeat;
+        background-size: 74px 38px;
+        width: 58.5px;
+        height: 25.5px;
         margin: 0 10px 0 0;
     }
 
     .top-menu-wrapper {
-        float: right;
+        position: absolute;
+        top: 55px;
+        left: 0;
+        right: 0;
     }
 
     .header-slogan {
         @include font-normal();
-        font-size: 41px;
-        line-height: 1em;
+        font-size: 24px;
+        line-height: 1.2em;
         color: #FFF;
         text-align: center;
-        padding: 275px 0 0;
+        padding: 200px 25px 0;
         margin: 0;
+    }
+
+    @media screen and (min-width: $tablet-width) {
+        height: 468px;
+
+        .header-logo-wrapper {
+            padding: 5px 0 0;
+        }
+
+        .header-logo {
+            background-position:-8px -10px;
+            background-size: 90px 47px;
+            width: 71px;
+            height: 32px;
+        }
+
+        .header-bar {
+            height: 70px;
+            background: transparent;
+        }
+
+        .top-menu-wrapper {
+            float: right;
+            position: static;
+        }
+
+        .header-slogan {
+            padding: 170px 0 0;
+        }
+    }
+
+    @media screen and (min-width: $desktop-width) {
+        height: 700px;
+
+        .header-logo-wrapper {
+            font-size: $text-normal-size;
+        }
+
+        .header-slogan {
+            font-size: 41px;
+            padding: 275px 0 0;
+        }
+    }
+}
+
+.top-menu-toggle {
+    display: block;
+    width: 14px;
+    height: 14.5px;
+    background: url('../img/icons/menu-open.png') 0 0 no-repeat;
+    background-size: 100%;
+    float: right;
+
+    &.is-opened {
+        background-image: url('../img/icons/menu-close.png');
+    }
+
+    @media screen and (min-width: $tablet-width) {
+        display: none;
     }
 }
 
 #top-menu {
-    .top-menu {
+    display: none;
+    background: rgba(#111d35, 0.5);
+    padding: 20px;
+    @include clearfix();
+
+    &.is-opened {
         display: block;
-        float: left;
+    }
+
+    .top-menu {
+        display: table;
+        width: 100%;
+        max-width: 300px;
+        margin: 0 0 20px;
         list-style: none;
         font-size: 0;
 
         li {
-            display: inline-block;
+            display: table-cell;
             vertical-align: top;
-            margin: 0 44px 0 0;
+            margin: 0;
+            text-align: center;
+
+            &:first-child {
+                text-align: left;
+            }
 
             &:last-child {
-                margin-right: 0;
+                text-align: right;
             }
 
             a {
-                display: block;
+                display: inline-block;
                 @include font-semibold();
                 font-size: $text-normal-size;
                 line-height: 36px;
                 color: #b2bbcf;
-                padding: 0 12px;
+                padding: 0;
                 border-bottom: 2px solid transparent;
                 @include transition(all, 0.2s);
 
@@ -104,9 +183,65 @@
         }
     }
     
-    .land-dropdown-wrapper {
-        margin: 0 30px;
+    .lang-dropdown-wrapper {
         float: left;
+    }
+    
+    .contact-button-wrapper {
+        float: right;
+
+        .btn {
+            padding: 0 15px;
+        }
+    }
+
+    @media screen and (min-width: $tablet-width) {
+        display: block;
+        margin: 0;
+        background: transparent;
+        padding: 0;
+
+        .top-menu {
+            display: block;
+            float: left;
+            width: auto;
+            max-width: none;
+
+            li {
+                display: inline-block;
+                margin: 0 30px 0 0;
+                text-align: center;
+
+                &:first-child {
+                    text-align: center;
+                }
+
+                &:last-child {
+                    text-align: center;
+                    margin-right: 0;
+                }
+            }
+        }
+
+        .lang-dropdown-wrapper {
+            margin: 0 15px;
+        }
+    }
+
+    @media screen and (min-width: $desktop-width) {
+        .top-menu {
+            li {
+                margin: 0 44px 0 0;
+
+                a {
+                    padding: 0 12px;
+                }
+            }
+        }
+
+        .lang-dropdown-wrapper {
+            margin: 0 30px;
+        }
     }
 }
 
@@ -122,7 +257,7 @@
         font-size: $text-normal-size;
         line-height: 36px;
         color: #b2bbcf;
-        padding: 0 20px 2px 25px;
+        padding: 0 0 2px 5px;
         @include border-radius(3px 3px 0 0);
 
         &:hover {
@@ -147,7 +282,7 @@
 
         a {
             display: block;
-            padding: 0 20px 0 25px;
+            padding: 0 0 0 5px;
             @include font-semibold();
             font-size: $text-normal-size;
             line-height: 30px;
@@ -188,6 +323,20 @@
 
         .dropdown-menu {
             display: block;
+        }
+    }
+
+    @media screen and (min-width: $tablet-width) {
+        .dropdown-toggle {
+            padding-left: 25px;
+            padding-right: 20px;
+        }
+
+        .dropdown-menu {
+            a {
+                padding-left: 25px;
+                padding-right: 20px;
+            }
         }
     }
 }

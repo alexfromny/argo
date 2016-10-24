@@ -74,7 +74,20 @@ $(document).ready(function () {
             .trigger('scroll');
     }
 
+    function initMenu() {
+        var $menu = $('#top-menu'),
+            $button = $('.top-menu-toggle');
+
+        $button.on('click', function (e) {
+            e.preventDefault();
+
+            $button.toggleClass('is-opened');
+            $menu.toggleClass('is-opened', $button.hasClass('is-opened'));
+        });
+    }
+
     initHeaderStick();
     initDropdown();
     initSmoothScrolling();
+    initMenu();
 });

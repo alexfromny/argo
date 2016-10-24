@@ -215,7 +215,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cloud (.NET).
+        ///   Looks up a localized string similar to Cloud (Windows Azure, AWS).
         /// </summary>
         internal static string Features_DevelopmentBenefit4 {
             get {

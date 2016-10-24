@@ -15,8 +15,7 @@ body {
     @include font-normal();
     font-size: $text-size;
     line-height: 1.2em;
-    /*min-height: 800px;
-    min-width: 320px;*/
+    min-width: 320px;
 }
 
 button, a {
