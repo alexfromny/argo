@@ -50,28 +50,13 @@ $(document).ready(function () {
         $links.on('click', function (e) {
             e.preventDefault();
 
-            var target = $(this).attr('href').replace('#', ''),
-                $target = $('a[name="' + target + '"]');
+            var target = $(this).attr('href'),
+                $target = $(target);
 
             $('html, body').animate({
                 scrollTop: $target.offset().top - scrollShift
             }, 500);
         });
-
-        $(window)
-            .on('scroll', function (e) {
-                var scrolled = $(window).scrollTop();
-
-                var $currentItem = $('a[name]').filter(function () {
-                    return ($(this).offset().top - scrollShift) <= scrolled;
-                }).last();
-
-                var $currentLink = $currentItem.length ? $links.filter('a[href^="#' + $currentItem.attr('name') + '"]') : $links.first();
-
-                $links.not($currentLink).removeClass('is-active');
-                $currentLink.addClass('is-active');
-            })
-            .trigger('scroll');
     }
 
     function initMenu() {
