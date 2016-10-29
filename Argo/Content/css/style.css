@@ -448,7 +448,7 @@ b, strong, h1, h2, h3, h4, h5, h6 {
 
 #top-menu {
   display: none;
-  background: rgba(17, 29, 53, 0.5);
+  background: rgba(17, 29, 53, 0.8);
   padding: 20px; }
   #top-menu:after {
     content: "";
@@ -669,14 +669,18 @@ h2 {
   transition: all 0.2s ease-in-out; }
   .btn:hover, .btn:active, .btn:focus {
     text-decoration: none; }
+  .btn .icon {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1.25em;
+    text-shadow: none; }
   .btn.btn-primary {
     color: #FFF;
     background: #ec2c56;
     border-bottom-color: #c0173c;
     text-shadow: 1px 1px 1px #ba173a; }
     .btn.btn-primary .icon {
-      color: #ba173a;
-      font-size: 1.25em; }
+      color: #ba173a; }
     .btn.btn-primary:hover {
       background: #db224b; }
     .btn.btn-primary:active {

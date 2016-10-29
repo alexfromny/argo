@@ -18,6 +18,13 @@
         text-decoration: none;
     }
 
+    .icon {
+        display: inline-block;
+        vertical-align: top;
+        font-size: 1.25em;
+        text-shadow: none;
+    }
+
     &.btn-primary {
         color: #FFF;
         background: #ec2c56;
@@ -26,7 +33,6 @@
 
         .icon {
             color: #ba173a;
-            font-size: 1.25em;
         }
 
         &:hover {
