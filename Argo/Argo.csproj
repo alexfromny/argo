@@ -173,7 +173,8 @@
     <Content Include="Content\img\projects\cargo-image.png" />
     <Content Include="Content\img\projects\cargo-logo-2x.png" />
     <Content Include="Content\img\projects\cargo-logo.png" />
-    <Content Include="Content\img\projects\empty-bg.svg" />
+    <Content Include="Content\img\projects\empty-bg-2x.png" />
+    <Content Include="Content\img\projects\empty-bg.png" />
     <Content Include="Content\img\projects\vernimoment-bg-2x.png" />
     <Content Include="Content\img\projects\vernimoment-bg.png" />
     <Content Include="Content\img\projects\vernimoment-image-2x.png" />

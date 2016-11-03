@@ -882,14 +882,23 @@ h2 {
 
 .projects .project-empty {
   border: 1px dashed #e2e2e2;
-  background: #f2f3f5 url("../img/projects/empty-bg.svg") 10px 40px no-repeat;
-  background-size: 276px 159.5px;
+  background: #f2f3f5;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
   position: relative;
   z-index: 1;
   padding: 250px 35px 40px; }
+  .projects .project-empty .project-image {
+    position: absolute;
+    top: 40px;
+    left: 35px;
+    right: 30px;
+    height: 159px;
+    background: #f2f3f5 url("../img/projects/empty-bg.png") 0 0 no-repeat;
+    background-size: 312px 159px; }
+    .highresdisplay .projects .project-empty .project-image {
+      background-image: url("../img/projects/empty-bg-2x.png"); }
   .projects .project-empty .project-details {
     vertical-align: top;
     text-align: center; }
@@ -935,14 +944,19 @@ h2 {
       height: auto; }
   .projects .project-empty {
     height: 300px;
-    background-position: 7.5px 42.5px;
-    padding: 120px 0 0 50%; } }
+    padding: 120px 0 0 50%; }
+    .projects .project-empty .project-image {
+      top: 45px;
+      left: 35px;
+      right: auto;
+      width: 312px; } }
 
 @media screen and (min-width: 1280px) {
   .projects .project .project-details {
     padding: 75px 55px; }
-  .projects .project-empty {
-    background-position: 27.5px 72.5px; } }
+  .projects .project-empty .project-image {
+    top: 75px;
+    left: 55px; } }
 
 @media screen and (min-width: 764px) {
   .team-wrapper {
